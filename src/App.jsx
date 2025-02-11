@@ -20,16 +20,16 @@ function App() {
       <section className='padding-x sm:py-15 mt-10 bg-gray-100'>
         <Bookings />
       </section>
-      <section>
+      <section className='padding'>
         <Contact />
       </section>
-      <section>
+      <section className='padding'>
         <Register />
       </section>
       <section>
         <Reviews />
       </section>
-      <section>
+      <section className='bg-black padding-x padding-t pb-8'>
         <Footer />
       </section>
     </main>

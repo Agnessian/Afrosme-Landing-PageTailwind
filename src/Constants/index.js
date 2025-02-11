@@ -1,3 +1,6 @@
+import instagram from "../assets/icons/instagram.svg";
+import twitter from "../assets/icons/twitter.svg";
+
 export const navLinks = [
     { href: "#about", label: "About" },
     { href: "#contact", label: "Contact" },
@@ -12,4 +15,24 @@ export const services =[
     {label: "Photographers"},
     {label: "Chefs"},
     {label: "And many more"},
-]
+];
+export const footerLinks = [
+    {
+        links: [
+            { name: "About", link: "#about" },
+            { name: "Contact", link: "#contact" },
+            { name: "Terms of service", link: "/" },
+        ],
+    },
+    {
+        links: [
+            { name: "Terms of service", link: "/" },
+            { name: "Privacy Policy", link: "/" },
+            
+        ],
+    },
+];
+export const socialMedia = [
+    { src: twitter, alt: "twitter logo" },
+    { src: instagram, alt: "instagram logo" },
+];

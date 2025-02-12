@@ -12,8 +12,8 @@ const Register = () => {
 
       <div className='grid grid-cols-1 md:grid-cols-3 sm:gap-5 sm:m-10 lg:m-0 lg:gap-10 lg:p-10 lg:ml-35 lg:mr-35 mt-5'>
 
-        <div className='flex flex-col mb-10 lg:mb-0'>
-          <img src={registerArtisan} alt="" width={1000} height={1000}/>
+        <div className='flex flex-col mb-10 lg:mb-0 items-center'>
+          <img src={registerArtisan} alt="" width={300} height={300}/>
           <div className='text-center text-gray-800'>
           <h1 className='font-bold text-xl m-4'>Register</h1>
           <p className='sm:text-sm lg:text-lg'> 
@@ -21,8 +21,8 @@ const Register = () => {
           </p>
           </div>
         </div>
-        <div className='flex flex-col mb-10 lg:mb-0'>
-      <img src={verify} alt="" width={1000} height={1000}/>
+        <div className='flex flex-col mb-10 lg:mb-0 items-center'>
+      <img src={verify} alt="" width={300} height={300}/>
       <div className='text-center text-gray-800'>
           <h1 className='font-bold text-xl m-4'>Get Verified</h1>
           <p className='sm:text-sm lg:text-lg'> 
@@ -30,8 +30,8 @@ const Register = () => {
           </p>
           </div>
         </div>
-        <div className='flex flex-col mb-10 lg:mb-0'>
-      <img src={deliver} alt="" width={1000} height={1000}/>
+        <div className='flex flex-col mb-10 lg:mb-0 items-center'>
+      <img src={deliver} alt="" width={300} height={300}/>
       <div className='text-center text-gray-800'>
           <h1 className='font-bold text-xl m-4'>Get Matched and Deliver Service</h1>
           <p className='sm:text-sm lg:text-lg'> 
@@ -41,7 +41,7 @@ const Register = () => {
         </div>
       </div>
       <div class="flex justify-center items-center">
-        <button class="p-4 bg-teal-400 text-white rounded-lg hover:bg-blue-700 transition text-lg justify-center">Register as Artisan</button>
+        <button class="p-4 bg-teal-400 text-white rounded-lg hover:bg-gray-400 transition text-lg justify-center">Register as Artisan</button>
       </div>
       </div>
     </section>

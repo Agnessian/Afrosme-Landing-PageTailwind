@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <header className='padding-x py absolute z-10 w-full mt-5'>
         <nav className='flex justify-between items-center max-container'>
-            <a href="/"><img src={headerLogo} alt="logo" className='m-0 ml-60 mb-3 w-[140px] h-[40px]' /></a>
+            <a href="/"><img src={headerLogo} alt="logo" className='m-0 lg:ml-60 mb-3 w-[140px] h-[40px]' /></a>
             <ul className='flex-1 flex justify-end ml-auto gap-15 max-lg:hidden'>
           {navLinks.map((item) => (
             <li key={item.label}>

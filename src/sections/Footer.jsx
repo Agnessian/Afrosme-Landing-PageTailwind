@@ -5,16 +5,13 @@ const Footer = () => {
   return (
     <footer>
       <div className='flex justify-between items-center gap-20 flex-wrap max-lg:flex-col text-white'>
-        <div className='flex flex-1 justify-between lg:gap-10 m-10 lg:pl-50 lg:pr-50 gap-40 flex-wrap'>
+        <div className='flex flex-1 justify-between lg:gap-10 m-10 lg:pl-50 lg:pr-50 sm:gap-15 gap-40 flex-wrap'>
             {footerLinks.map((section) => (
               <div key={section.title}>
-                <h4 className='leading-normal'>
-                  {section.title}
-                </h4>
                 <ul>
                   {section.links.map((link) => (
                     <li
-                      className='text-base leading-normal text-white-400 hover:text-sky-200'
+                      className='text-base leading-normal text-white-400 hover:text-sky-200 mt-2'
                       key={link.name}
                     >
                       <a href={link.link}>{link.name}</a>

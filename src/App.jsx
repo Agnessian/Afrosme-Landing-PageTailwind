@@ -14,7 +14,7 @@ function App() {
       <section className='xl:padding-l wide:padding-r padding-b'>
         <Hero />
       </section>
-      <section className='padding'>
+      <section className='padding sm:m-5'>
         <Services />
       </section>
       <section className='padding-x sm:py-15 mt-10 bg-gray-100'>
@@ -23,10 +23,10 @@ function App() {
       <section className='padding'>
         <Contact />
       </section>
-      <section className='padding'>
+      <section className='padding-x sm:py-15 mt-10 bg-gray-100'>
         <Register />
       </section>
-      <section>
+      <section className='padding sm:py-15'>
         <Reviews />
       </section>
       <section className='bg-black padding-x padding-t pb-8'>

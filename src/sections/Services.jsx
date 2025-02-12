@@ -4,7 +4,7 @@ import service from "../assets/images/service.jpeg"
 const Services = () => {
   return (
     <section>
-      <div className="flex flex-wrap gap-5  justify-between pr-60 pl-60 mb-10 ">
+      <div className="flex flex-wrap lg:gap-5 sm:gap-1  justify-between lg:pr-60 lg:pl-60 mb-10 ">
         {services.map((item) => (
           <span className="service-item service-item:hover">
           {item.label}
@@ -23,7 +23,7 @@ const Services = () => {
             <input type="text" name="" id="" placeholder='Service' className='form'/>
             <input type="text" name="" id="" placeholder='style' className='form'/>
             <textarea type="text" name="" id="" placeholder='Description' className='form md:col-span-2'/>
-            <button class="w-full bg-sky-400 text-white py-3 rounded-lg hover:bg-blue-700 transition md:col-span-2">
+            <button class="w-full bg-teal-400 text-white py-3 rounded-lg hover:bg-blue-700 transition md:col-span-2">
           Find Service
         </button>
           </form>
@@ -34,8 +34,6 @@ const Services = () => {
           <img src={service} alt="" className='w-full h-full object-cover'/>
         </div>
       </div>
-      
-      
     </section>
   )
 }

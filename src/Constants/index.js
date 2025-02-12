@@ -1,5 +1,6 @@
 import instagram from "../assets/icons/instagram.svg";
 import twitter from "../assets/icons/twitter.svg";
+import customer from "../assets/images/customer.svg";
 
 export const navLinks = [
     { href: "#about", label: "About" },
@@ -15,6 +16,23 @@ export const services =[
     {label: "Photographers"},
     {label: "Chefs"},
     {label: "And many more"},
+];
+export const reviews = [
+    {
+        imgURL: customer,
+        customerName: 'Morich Brown',
+        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+    },
+    {
+        imgURL: customer,
+        customerName: 'Lota Mongeskar',
+        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+    },
+    {
+        imgURL: customer,
+        customerName: 'Morich Lara',
+        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+    },
 ];
 export const footerLinks = [
     {

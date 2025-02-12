@@ -1,5 +1,5 @@
 
-import contact from "../assets/images/contact.jpeg"
+import contact from "../assets/images/Contact.jpeg"
 const Contact = () => {
   return (
     <section>      
